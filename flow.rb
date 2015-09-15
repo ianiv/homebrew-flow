@@ -12,6 +12,8 @@ class Flow < Formula
     sha256 "98f3ed29075b0b3cc457dc722d7ad38f4ba9c84dd3a60df1e43d1afe29478428" => :mavericks
     sha256 "6cc6fdcd50bfe4f39397902a1dbc31a65e242a4ca76cb918e395cd97d8d35eac" => :mountain_lion
   end
+  
+  patch :DATA
 
   depends_on "ocaml" => :build
 
